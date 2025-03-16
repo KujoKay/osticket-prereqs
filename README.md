@@ -20,7 +20,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Microsoft Azure
 - Virtual Machine
-- Installation Files
+- Internet Information Services (IIS)
+- osTicket Installation Files: https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD
 
 <h2>Installation Steps</h2>
 
@@ -57,9 +58,40 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 
 <p>
-5. Now that you have accessed your virtual machine, you will need to   
+5. Now that you have accessed your virtual machine, you will need to download the osTicket Installation Files within the virtual machine. Once you have done that, unzip the folder onto your desktop.
+</p>
+
+<p>
+6. Access your control panel and choose "Uninstall a program". Next, click on "Turn Windows features on or off". From there, we will turn on "Internet Information Services" (IIS).
 </p>
 <p>
 <img src="https://github.com/user-attachments/assets/50f2852d-bec0-44c2-924f-97dc139cc7c6"/>
 <img src="https://github.com/user-attachments/assets/0a0926fb-9216-4df4-bd5d-45e1040df43a"/>
+</p>
+
+<p>
+7. Once you find Internet Information Services, click on the box to turn it on. Next, click the "+" sign to expand the folder and find "World Wide Web services". Expand that folder and find "CGI". Click on the box to activate it. 
+</p>
+<p>
+<img src="https://github.com/user-attachments/assets/758814a2-0de5-44e0-b15d-888a84ac1833"/>
+<img src="https://github.com/user-attachments/assets/0a03cfd3-00a3-4d03-a4c5-0eea259a909a"/>
+</p>
+
+<p>
+8. From the "osTicket-Installation-Files" folder, install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi). Go through the install process and complete the installation.
+</p>
+
+<p>
+9. From the "osTicket-Installation-Files" folder, install the Rewrite Module (rewrite_amd64_en-US.msi). 
+</p>
+
+<p>
+10. Create a folder in the C drive called PHP (C\:PHP).
+</p>
+
+<p>
+11. From the "osTicket-Installation-Files" folder, unzip PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) into the "C:\PHP" folder. The destination should look like the image below.
+</p>
+<p>
+<img src="https://github.com/user-attachments/assets/a77c292c-1fa1-4828-b25c-0ae22a7ade18"/>
 </p>
