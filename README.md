@@ -95,3 +95,16 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 <img src="https://github.com/user-attachments/assets/a77c292c-1fa1-4828-b25c-0ae22a7ade18"/>
 </p>
+
+<p>
+12. From the "osTicket-Installation-Files" folder, install VC_redist.x86.exe.
+</p>
+
+<p>
+13. From the “osTicket-Installation-Files” folder, install MySQL 5.5.62 (mysql-5.5.62-win32.msi). Choose "Typical Setup", launch the configuration wizard, then choose "Standard Configuration". For the root password, it is absolutely CRUCIAL that you remember it. In this case, you can just use "root" as the password (For real life situations, use a much more complex password). Once you typed the password, click "Next" then execute the process.
+</p>
+<p>
+<img src="https://github.com/user-attachments/assets/703fc5b5-5db4-45fd-aa4c-a812b99e5e88"/>
+<img src="https://github.com/user-attachments/assets/489d2e5b-ea92-4039-9abb-7e3f05430845"/>
+
+</p>
