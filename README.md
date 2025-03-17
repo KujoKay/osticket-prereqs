@@ -106,5 +106,38 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 <img src="https://github.com/user-attachments/assets/703fc5b5-5db4-45fd-aa4c-a812b99e5e88"/>
 <img src="https://github.com/user-attachments/assets/489d2e5b-ea92-4039-9abb-7e3f05430845"/>
+</p>
 
+<p>
+14. Now that you have everything installed and set up, next step is open IIS as an administrator. Once you have that open, click on "PHP Manager". Next, click "Register new PHP version" and you'll be given a prompt to provide a path to the php executable file. Click the three dots and the path should be "C:\PHP\php-cgi.exe"
+</p>
+<p>
+<img src="https://github.com/user-attachments/assets/2dc727b5-3565-4571-b962-21c4b658985c"/>
+<img src="https://github.com/user-attachments/assets/bbcc42c2-a07f-4685-8a90-05ee90152d6f"/>
+<img src="https://github.com/user-attachments/assets/288b0f0b-b0ea-4876-bef8-05b75d3e74be"/>
+</p>
+
+<p>
+15. Once that is completed, you must reload IIS. All you have to do is stop the server, wait a moment, then start it again.
+</p>
+<p>
+<img src="https://github.com/user-attachments/assets/d10adb79-0dd3-4f3e-a7c6-20cbf97b7bf2"/>
+</p>
+
+<p>
+16. Now you will install osTicket. From the "osTicket-Installation-Files" folder, unzip “osTicket-v1.15.8.zip” and copy the "upload" folder into “c:\inetpub\wwwroot”. Once you do that, rename the "upload" folder to "osTicket". After this is done, reload IIS again. 
+</p>
+
+<p>
+17. After reloading IIS, click on "Sites", go to "Default Web Site", then "osTicket". On the right side, click "Browse *.80".
+</p>
+<p>
+<img src="https://github.com/user-attachments/assets/93e67cd0-2791-4b94-af3a-b1032b5cccc4"/>
+</p>
+
+<p>
+18. Once you click "Browse *.80", you should see what the image below shows. That means everything is work so far! There are some extensions that need to be enabled.
+</p>
+<p>
+<img src="https://github.com/user-attachments/assets/51776907-d3f1-4aad-9e4a-dd2582722a15"/>
 </p>
