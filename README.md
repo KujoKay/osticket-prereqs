@@ -172,5 +172,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 
 <p>
-23. From the "osTicket-Installation-Files" folder, install HeidiSQL. Once the program is installed and opened, create a new session. Once you have created a new session 
+23. From the "osTicket-Installation-Files" folder, install HeidiSQL. Once the program is installed and opened, create a new session. Once you have created a new session it will ask for the password, type in the password used in the MySQL server. When the password is confirmed, it will connect to the session. Next, right click the dolphin symbol with the title "Unnamed" and hover over "Create New", then click "Database". Name the new database "osTicket" (Make sure it's spelled EXACTLY like "osTicket").   
+</p>
+<p>
+<img src="https://github.com/user-attachments/assets/d907ddce-2f29-4585-8ba7-e65124662f95"/>
+<img src="https://github.com/user-attachments/assets/2cb6977e-1179-4b55-a74a-50cbc8ddec50"/>
 </p>
