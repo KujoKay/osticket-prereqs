@@ -21,7 +21,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Microsoft Azure
 - Virtual Machine
 - Internet Information Services (IIS)
-- osTicket Installation Files: https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD
+- osTicket Installation Files (wait until step 5): https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD
 
 <h2>Installation Steps</h2>
 
