@@ -143,10 +143,17 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 
 <p>
-19. Return to IIS, click on "Sites", then "Default Web Site", then "osTicket". From there, double click "PHP Manager", then go to "Enable or disable an extension". We will want to enable the following extensions: php_imap.dll, php_intl.dll, php_opcache.dll
+19. Return to IIS, click on "Sites", then "Default Web Site", then "osTicket". From there, double click "PHP Manager", then go to "Enable or disable an extension". We will want to enable the following extensions: php_imap.dll, php_intl.dll, php_opcache.dll. Once those extensions are enabled, refresh the browser.
 </p>
 <p>
 <img src="https://github.com/user-attachments/assets/7ccbba2f-b008-4210-91bf-feb276d819df"/>
 <img src="https://github.com/user-attachments/assets/315eb907-71ea-4bea-becd-c8056c2d07da"/>
 <img src="https://github.com/user-attachments/assets/4a18e77c-f4c6-4ce3-897a-286717fd4e73"/>
+</p>
+
+<p>
+20. Now we have to rename a file in the osTicket folder. Go into file explorer and search for "C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php". Rename the file "ost-sampleconfig.php" to "ost-config.php". Once the file is renamed, right click the file and go "Properties", click on "Security", click on "Advanced", then click on "Disable inheritance" and remove all.
+</p>
+<p>
+<img src="https://github.com/user-attachments/assets/882e28c5-9b38-413a-84c7-51c339519d94"/>
 </p>
