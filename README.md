@@ -157,3 +157,20 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 <img src="https://github.com/user-attachments/assets/882e28c5-9b38-413a-84c7-51c339519d94"/>
 </p>
+
+<p>
+21. Now that we removed all permissions, we have to add new ones. Click on "Add" then "Select a principal". Once you do that, type "Everyone" in the box. Once you do that, check the box that says "Full Control" and click OK. When that's done, click "Apply" and OK. 
+</p>
+<p>
+<img src="https://github.com/user-attachments/assets/596a63c0-77f5-49f4-b211-787834a3b8b1"/>
+<img src="https://github.com/user-attachments/assets/df250b53-f16c-42a9-be49-f80b438c89b8"/>
+<img src="https://github.com/user-attachments/assets/7d957eb2-507d-4543-b331-b0ff7c57f7c9"/>
+</p>
+
+<p>
+22. Once all of that is done, go back to the osTicket browser and click "Continue" to proceed forward. Fill out the page with the appropriate information EXCEPT Database Settings at the bottom of the page. 
+</p>
+
+<p>
+23. From the "osTicket-Installation-Files" folder, install HeidiSQL. Once the program is installed and opened, create a new session. Once you have created a new session 
+</p>
